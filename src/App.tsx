@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       {alertVisible && <Alert onClose={()=> setAlertVisibility(false)} >My new alert</Alert>}
-      <Button color = 'primary' onClick={()=> setAlertVisibility(true)}>My  new Button</Button>
+      <Button color = 'secondary' onClick={()=> setAlertVisibility(true)}>My  new Button</Button>
     </div>
   );
 }
